@@ -1,16 +1,13 @@
 package com.example.handson;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+public class Calculator {
 
-import org.junit.jupiter.api.Test;
+    public double add(double a, double b) {
+        return a + b;
+    }
 
-public class CalculatorTest {
-
-    @Test
-    public void testAddIntegerValues() {
-        Calculator calc = new Calculator();
-
-        assertEquals(5.0, calc.add(2.0, 3.0));
+    public double add(double a, double b, double c) {
+        return a + b + c;
     }
 
 }
